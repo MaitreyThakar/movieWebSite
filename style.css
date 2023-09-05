@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+            width: 100%;
+            border: 0px solid black;
+}
+.topbox{
+            width: 100%;
+            height: 100px;
+            border: 0px solid blue;
+}
+.topbox2{
+            width: 100%;
+            height: 50px;
+            border: 0px solid green;
+            background-color: greenyellow;
+            
+}
+.mainbox2{
+            width: 100%;
+            overflow: auto;
+            border: 0px solid red;
+            
+}
+.bottombox{
+            width: 100%;
+            height: 50px;
+            border: 0px solid chartreuse;
+}
+.leftbox{
+            width: 20%;
+            height: 130vh;
+            border: 0px solid red;
+            float: left;   
+            background-color: black;
+}
+.middlebox{
+            width: 58%;
+            
+            border: 0px solid darkblue;
+            float: left;
+}
+.rightbox{
+            width: 20%;
+            height: 130vh;
+            border: 0px solid darkgoldenrod;
+            float: left;
+
+            
+}
+.headingbox1{
+                width: 14%;
+                height: 95px;
+                border: 0px solid olivedrab;
+                float: left;
+}
+.headingbox2{
+        width: 14%;
+        height: 95px;
+        border: 0px solid olivedrab;
+        
+        float: right;
+    }
+.moviehead{
+            height: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 0px solid red;
+            float: left;
+            margin-left: 8px;
+}
+.moviehead2{
+            height: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 0px solid purple;
+}
+.navbar ul{
+            list-style: none;
+            margin-left: 110px;
+            overflow: auto;
+            padding-top: 7px;
+}
+.navbar ul li{
+            float: left;
+            
+}
+.navbar ul li a{
+                text-decoration: none;
+                color: black;
+                display: block;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+}
+.navbar ul li a:hover{
+                        background-color: black;
+                        color: white;
+                        border-radius: 37px;
+}
+.navbar2 ul{
+                list-style: none;
+}
+
+.navbar2 ul li a{
+                    text-decoration: none;
+                    padding: 20px;
+                    display: block;
+                    color: white;
+                    text-align: center;
+}
+.navbar2 ul li a:hover{
+                            background-color: white;
+                            color: red;
+                            border-radius: 37px;
+}
+.moviebar{
+            text-align: center;
+            margin-top: 15px;
+}
+.bottombox{
+            background-color: greenyellow;
+}
+.bottomboxtext{
+                text-align: center;
+}
+.movie-card{
+                width: 26%;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+                border: 1px solid silver;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                float: left;
+}
+.movie-card-image{
+                    width: 100%;
+
+                    border: 0px solid blue;
+}
+.movie-card-detail{
+                    width: 100%;
+                    height: 70px;
+                    border: 0px solid black;
+}
+.movie-card-image-poster{
+                            height: 250px;
+                            display: block;
+                            margin-right: auto;
+                            margin-left: auto;  
+}
+.movie-card-detail-title{
+                            text-align: center;
+                            
+                            
+}
+.movie-card-detail-title2{
+                            float: left;
+                            padding-top: 5px;
+}
+.movie-card-detail-ratingbox{
+                            width: 50%;
+                            height: 30px;
+                            border: 0px solid green;
+                            float: right;
+                            display: block;
+                            overflow: auto;;
+                            padding-top: 5px;
+}
+.movie-card-detail-logobox{
+                            float: right;
+                            border: 0px solid purple;
+                            padding-top: 3px;
+}
+.movie-card-detail-rating-text{
+                                border: 0px solid black;
+                                padding-right: 5px;
+              
+                                float: right;
+}
+.image{
+        width: 20px;
+}
+.card-text-hidden{
+                    visibility: hidden;
+}
+.movie-video{
+                border: 0px solid red;
+                padding-left: 90px;
+                padding-top: 40px;
+                padding-bottom: 60px;
+}
+
+.contactusmainbox{
+                        width: 100%;
+                        height: 710px;
+                        border: 0px solid black;
+                        margin-left: auto;
+                        margin-right: auto;
+}
+
+.contactusheadbox{
+                    width: 50%;
+                    height: 90px;
+                    border: 0px solid brown;
+                    margin-left: auto;
+                    margin-right: auto;
+}
+
+.contactustitle{
+                    width: 100%;
+                    height: 55px;
+                    border: 0px solid green;
+                    margin-top: 3px;
+}
+
+.contactusmainbox2{
+                    width: 100%;
+                    height: 535px;
+                    border: 0px solid purple;
+                    margin-top: 10px;
+}
+
+.contactusform1{
+                    width: 90%;
+                    height: 75px;
+                    border: 0px solid blue;
+                    margin-left: 40px;
+                    margin-top: 13px;
+}
+
+.form1box1{
+                width: 30%;
+                height: 50px;
+                border: 0px solid blue;
+                margin-left: 20px;
+                margin-top: 10px;
+                float: left;
+}
+
+.form1box2{
+                width: 60%;
+                height: 50px;
+                border: 0px solid blue;
+                float: left;
+                margin-left: 26px;
+                margin-top: 10px;
+}
+
+.contactusform2{
+                    width: 90%;
+                    height: 75px;
+                    border: 0px solid red;
+                    margin-top: 10px;
+                    margin-left: 40px;
+}
+
+.form2box1{
+                            
+                width: 30%;
+                height: 50px;
+                border: 0px solid red;
+                margin-left: 20px;
+                margin-top: 10px;
+                float: left;
+}
+
+
+.form2box2{
+                width: 60%;
+                height: 50px;
+                border: 0px solid red;
+                float: left;
+                margin-left: 26px;
+                margin-top: 10px;
+}
+
+.contactusform3{
+                width: 90%;
+                height: 75px;
+                border: 0px solid black;
+                margin-top: 10px;
+                margin-left: 40px;
+}
+
+.form3box1{
+                            
+                width: 30%;
+                height: 50px;
+                border: 0px solid black;
+                margin-left: 20px;
+                margin-top: 10px;
+                float: left;
+}
+
+.form3box2{
+                width: 60%;
+                height: 50px;
+                border: 0px solid black;
+                float: left;
+                margin-left: 26px;
+                margin-top: 10px;
+}
+
+.contactusform4{
+                width: 90%;
+                height: 75px;
+                border: 0px solid blueviolet;
+                margin-top: 10px;
+                margin-left: 40px;
+}
+
+.form4box1{
+                
+                width: 30%;
+                height: 50px;
+                border: 0px solid blueviolet;
+                margin-left: 20px;
+                margin-top: 10px;
+                float: left;
+}
+
+.form4box2{
+                width: 60%;
+                height: 50px;
+                border: 0px solid blueviolet;
+                float: left;
+                margin-left: 26px;
+                margin-top: 10px;
+}
+
+.contactussubmitbutton{
+                width: 90%;
+                height: 60px;
+                border: 0px solid red;
+                margin-top: 10px;
+                margin-left: 40px;     
+}
+
+.contactusfooter{
+                width: 90%;
+                height: 80px;
+                border: 0px solid blueviolet;
+                margin-top: 10px;
+                margin-left: 40px;
+}
+
+.contactusheadboxtext{
+                            text-align: center;
+                            margin-top: 20px;
+}
+
+.contactustitletext{
+                        text-align: center;
+                        margin-top: 5px;
+}
+
+.form1box1text{
+                    
+                    margin-top: 8px;
+}
+
+.form2box1text{
+                    
+                    margin-top: 8px;
+}
+
+.form3box1text{
+                    
+                    margin-top: 8px;
+}
+
+.form1box2inputbox{
+                        width: 90%;
+                        height: 30px;
+                        border: 2px solid silver;
+                        margin-top: 7px;
+                        margin-left: 14px;
+                        border-radius: 60px;
+                        outline: none;
+                        font-size: 15px;
+                        padding-left: 10px;
+}
+
+.form2box2inputbox{
+                        width: 90%;
+                        height: 30px;
+                        border: 2px solid silver;
+                        margin-top: 7px;
+                        margin-left: 14px;
+                        border-radius: 60px;
+                        outline: none;
+                        font-size: 15px;
+                        padding-left: 10px;
+}
+
+.form3box2inputbox{
+                        width: 90%;
+                        height: 30px;
+                        border: 2px solid silver;
+                        margin-top: 7px;
+                        margin-left: 14px;
+                        border-radius: 60px;
+                        outline: none;
+                        font-size: 15px;
+                        padding-left: 10px;
+}
+
+.form4box1text{
+                        
+                        margin-top: 8px;
+                        
+}
+
+.textareatext{
+                width: 90%;
+                outline: none;
+                border-radius: 20px;
+                margin-left: 12px;
+                margin-top: 5px;
+                height: 28px;
+                padding-left: 16px;
+                padding-top: 10px;
+
+                
+}
+
+.contactussubmitbuttonbox{
+                            width: 60%;
+                            height: 40px;
+                            border: 0px solid silver;
+                            margin-top: 8px;
+                            margin-left: 90px;
+                            border-radius: 50px;
+                            background-color: rgb(99, 239, 146);
+}
+
+.contactussubmittext{
+                        text-align: center;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        color: rgb(43, 7, 7);
+}
+
+.error{
+            color: red;
+            margin-top: 2px;
+            margin-left: 80px;
+}
+
+.rightboxtext{
+                    width: 90%;
+                    height: 70px;
+                    border: 0px solid red; 
+                    margin-left: 10px; 
+                    margin-top: 3px;
+                     
+}
+
+.latestmoviebox{
+                    width: 90%;
+                    height: 650px;
+                    border: 1px solid silver;
+                    margin-top: 20px;
+                    margin-left: 10px;
+                    border-radius: 10px; 
+}
+
+.latestmovieposter{
+                    width: 96%;
+                    height: 400px;
+                    border: 0px solid blue;
+                    margin-top: 10px;
+                    margin-left: 3px;
+                    
+}
+
+.latestmoviename{
+                    width: 90%;
+                    height: 100px;
+                    border: 0px solid red;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                   
+}
+
+.latestmovieyear{
+                    width: 40%;
+                    height: 40px;
+                    border: 0px solid black;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    float: left;
+}
+
+.latestmovierating{
+                        width: 40%;
+                        height: 50px;
+                        border: 0px solid green;
+                        float: left; 
+                        margin-left: 30px;
+                        margin-top: 10px;
+                        display: block;
+}
+
+
+.latestmovieratingbox{
+                    width: 40%;
+                    height: 30px;
+                    border: 0px solid purple;
+                    float: right;
+                    margin-top: 7px;
+                    display: block;
+                    overflow: auto;
+                    font-size: 20px;
+}
+
+.latestmoviestar{
+                    width: 40%;
+                    height: 30px;
+                    border: 0px solid black;
+                    float: right;
+                    margin-right: 8px;
+                    
+}
+
+.latestmovieimage{
+                    width: 100%;
+}
+
+.latestmovieyeartext{
+                        margin-left: 15px;
+                        margin-top: 5px;
+}
+
+.latestmovieposteri{
+                        width: 100%;
+                        height: 400px;
+}
+
+.latestmovienametext{
+                        text-align: center;
+                        text-decoration: none;
+}
+
+.moviebar{
+                text-decoration: none;
+}
+
+.latestmoviequery{
+                    text-decoration: none;
+}
+
+.movieheadingbox{
+                    width: 70%;
+                    height: 90px;
+                    border: 0px solid black;
+                    float: left;
+                    margin-top: 4px;
+                    border-radius: 60px;
+                    background-color: rgb(19, 18, 18);
+}
+
+.movielogobox7{
+                width: 14%;
+                height: 75px;
+                border: 0px solid green;
+                margin-left: 90px;
+                margin-top: 5px;
+                float: left;
+}
+
+
+.movieheadingpic{
+                    width: 100%;
+                    height: 80px;
+}
+
+.movieheadingtextbox{
+                        width: 60%;
+                        height: 80px;
+                        border: 0px solid white;
+                        float: left;
+                        margin-left: 30px;
+                        margin-top: 2px;
+}
+
+.movieheadingtext{
+                    color: white;
+                    font-size: 58px;
+                    margin-top: 6px;
+}
+
+.indexmiddlebox{
+                    width: 100%;
+                    height: 770px;
+                    border: 0px solid red;
+}
+
+.movieindextext{
+                    text-align: center;
+                    margin-top: 40px;
+                    font-size: 40px;
+}
+
+.movieindextext2{
+                    text-align: center;
+}
+
+.moviehomemiddle2{
+                    width: 100%;
+                    height: 660px;
+                    border: 0px solid blue;
+}
+
+.homeholly{
+               width: 22%;
+               height: 270px;
+               border: 0px solid blue;
+               float: left;
+               margin-top: 20px;
+               margin-left: 20px;
+               
+
+}
+
+.homehollyd1{
+                width: 99%;
+                height: 200px;
+                border: 2px solid silver;
+                border-radius: 10px;
+                margin-top: 5px;
+}
+
+.homehollyd2{
+                width: 100%;
+                height: 40px;
+                border: 1px solid silver;
+               margin-top: 20px;
+               border-radius: 30px;
+}
+
+.homebolly{
+    width: 24%;
+    height: 270px;
+    border: 0px solid blue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 2px;
+    
+
+}
+
+.homebollyd1{
+     width: 100%;
+     height: 200px;
+     border: 2px solid silver;
+     border-radius: 10px;
+     margin-top: 5px;
+     margin-right: 200px;
+}
+
+.homebollyd2{
+     width: 100%;
+     height: 40px;
+     border: 1px solid silver;
+     margin-top: 20px;
+     border-radius: 30px;
+}
+
+.hometolly{
+    width: 24%;
+    height: 270px;
+    border: 0px solid blue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+
+}
+
+.hometollyd1{
+     width: 99%;
+     height: 200px;
+     border: 2px solid silver;
+     border-radius: 10px;
+     margin-top: 5px;
+}
+
+.hometollyd2{
+     width: 100%;
+     height: 40px;
+     border: 1px solid silver;
+     margin-top: 20px;
+     border-radius: 30px;
+}
+
+
+.homedolly{
+    width: 24%;
+    height: 270px;
+    border: 0px solid blue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+
+}
+
+.homedollyd1{
+     width: 99%;
+     height: 200px;
+     border: 2px solid silver;
+     border-radius: 10px;
+     margin-top: 5px;
+}
+
+.homedollyd2{
+     width: 100%;
+     height: 40px;
+     border: 1px solid silver;
+     margin-top: 20px;
+     border-radius: 30px;
+}
+
+.homehollypic{
+                height: 200px;
+                width: 90%;
+}
+
+.homebollypic2{
+                width: 100%;
+                height: 200px;
+}
+
+.hometollypic2{
+                    width: 100%;
+                    height: 200px;
+}
+
+.homedollypic2{
+                width: 100%;
+                height: 200px;
+}
+
+.bollytext{
+                margin-left: 3px;
+                text-align: center;
+}
+
+.tollytext{
+                margin-left: 3px;
+                text-align: center;
+}
+
+.dollytext{
+                text-align: center;
+                margin-left: 2px;
+}
+
+.hollytext{
+               text-align: center;
+               
+}
